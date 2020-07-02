@@ -1,0 +1,182 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NewFeedBack Component will render with min props 1`] = `
+<NavBar
+  handleSearch={[MockFunction]}
+  showSearch={true}
+>
+  <Navbar
+    bg="light"
+    collapseOnSelect={false}
+    expand="lg"
+    variant="light"
+  >
+    <nav
+      className="navbar navbar-expand-lg navbar-light bg-light"
+    >
+      <NavbarBrand
+        href="/"
+      >
+        <a
+          className="navbar-brand"
+          href="/"
+        >
+          Astro Customer Feedbacks
+        </a>
+      </NavbarBrand>
+      <NavbarToggle
+        aria-controls="basic-navbar-nav"
+        label="Toggle navigation"
+      >
+        <button
+          aria-controls="basic-navbar-nav"
+          aria-label="Toggle navigation"
+          className="navbar-toggler collapsed"
+          onClick={[Function]}
+          type="button"
+        >
+          <span
+            className="navbar-toggler-icon"
+          />
+        </button>
+      </NavbarToggle>
+      <NavbarCollapse
+        id="basic-navbar-nav"
+      >
+        <Collapse
+          appear={false}
+          dimension="height"
+          getDimensionValue={[Function]}
+          id="basic-navbar-nav"
+          in={false}
+          mountOnEnter={false}
+          timeout={300}
+          unmountOnExit={false}
+        >
+          <Transition
+            addEndListener={[Function]}
+            appear={false}
+            aria-expanded={null}
+            enter={true}
+            exit={true}
+            id="basic-navbar-nav"
+            in={false}
+            mountOnEnter={false}
+            onEnter={[Function]}
+            onEntered={[Function]}
+            onEntering={[Function]}
+            onExit={[Function]}
+            onExited={[Function]}
+            onExiting={[Function]}
+            timeout={300}
+            unmountOnExit={false}
+          >
+            <div
+              aria-expanded={null}
+              className="navbar-collapse collapse"
+              id="basic-navbar-nav"
+            >
+              <Nav
+                className="mr-auto"
+                fill={false}
+                justify={false}
+              >
+                <ForwardRef
+                  as="div"
+                  className="mr-auto navbar-nav"
+                  onSelect={[Function]}
+                >
+                  <div
+                    className="mr-auto navbar-nav"
+                    onKeyDown={[Function]}
+                  >
+                    <NavLink
+                      as={
+                        Object {
+                          "$$typeof": Symbol(react.forward_ref),
+                          "displayName": "SafeAnchor",
+                          "render": [Function],
+                        }
+                      }
+                      disabled={false}
+                      href="/add-new"
+                    >
+                      <ForwardRef
+                        as={
+                          Object {
+                            "$$typeof": Symbol(react.forward_ref),
+                            "displayName": "SafeAnchor",
+                            "render": [Function],
+                          }
+                        }
+                        className="nav-link"
+                        disabled={false}
+                        href="/add-new"
+                      >
+                        <SafeAnchor
+                          className="nav-link"
+                          data-rb-event-key="/add-new"
+                          disabled={false}
+                          href="/add-new"
+                          onClick={[Function]}
+                        >
+                          <a
+                            className="nav-link"
+                            data-rb-event-key="/add-new"
+                            href="/add-new"
+                            onClick={[Function]}
+                            onKeyDown={[Function]}
+                          >
+                            Add New Feedback
+                          </a>
+                        </SafeAnchor>
+                      </ForwardRef>
+                    </NavLink>
+                  </div>
+                </ForwardRef>
+              </Nav>
+              <Form
+                inline={true}
+              >
+                <form
+                  className="form-inline"
+                >
+                  <FormControl
+                    className="mr-sm-2"
+                    placeholder="Search Using Email"
+                    type="text"
+                  >
+                    <input
+                      className="mr-sm-2 form-control"
+                      placeholder="Search Using Email"
+                      type="text"
+                    />
+                  </FormControl>
+                  <Button
+                    active={false}
+                    disabled={false}
+                    id="SearchButton"
+                    onClick={[MockFunction]}
+                    type="button"
+                    variant="outline-success"
+                  >
+                    <button
+                      className="btn btn-outline-success"
+                      disabled={false}
+                      id="SearchButton"
+                      onClick={[MockFunction]}
+                      type="button"
+                    >
+                      Search
+                    </button>
+                  </Button>
+                </form>
+              </Form>
+            </div>
+          </Transition>
+        </Collapse>
+      </NavbarCollapse>
+    </nav>
+  </Navbar>
+</NavBar>
+`;

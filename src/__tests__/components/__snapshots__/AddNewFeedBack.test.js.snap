@@ -1,0 +1,490 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NewFeedBack Component will render with min props 1`] = `
+<NewFeedBack
+  feedBackList={
+    Array [
+      Object {
+        "date": 1593590610,
+        "description": "description 1",
+        "dislike": 88,
+        "email": "email 1",
+        "id": "1",
+        "like": 19,
+        "title": "title 1",
+        "type": "type 1",
+      },
+      Object {
+        "date": 1593590550,
+        "description": "description 2",
+        "dislike": 9,
+        "email": "email 2",
+        "id": "2",
+        "like": 80,
+        "title": "title 2",
+        "type": "type 2",
+      },
+      Object {
+        "date": 1593590490,
+        "description": "description 3",
+        "dislike": 27,
+        "email": "email 3",
+        "id": "3",
+        "like": 10,
+        "title": "title 3",
+        "type": "type 3",
+      },
+      Object {
+        "date": 1593590430,
+        "description": "description 4",
+        "dislike": 41,
+        "email": "email 4",
+        "id": "4",
+        "like": 39,
+        "title": "title 4",
+        "type": "type 4",
+      },
+    ]
+  }
+  hideMessage={[MockFunction]}
+  responseMessage="Created Successfully"
+  responseVariant="success"
+  saveFeedback={[MockFunction]}
+  showMessage={[MockFunction]}
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [Function],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+>
+  <Container
+    fluid={true}
+  >
+    <div
+      className="container-fluid"
+    >
+      <NavBar
+        showSearch={false}
+      >
+        <Navbar
+          bg="light"
+          collapseOnSelect={false}
+          expand="lg"
+          variant="light"
+        >
+          <nav
+            className="navbar navbar-expand-lg navbar-light bg-light"
+          >
+            <NavbarBrand
+              href="/"
+            >
+              <a
+                className="navbar-brand"
+                href="/"
+              >
+                Astro Customer Feedbacks
+              </a>
+            </NavbarBrand>
+            <NavbarToggle
+              aria-controls="basic-navbar-nav"
+              label="Toggle navigation"
+            >
+              <button
+                aria-controls="basic-navbar-nav"
+                aria-label="Toggle navigation"
+                className="navbar-toggler collapsed"
+                onClick={[Function]}
+                type="button"
+              >
+                <span
+                  className="navbar-toggler-icon"
+                />
+              </button>
+            </NavbarToggle>
+            <NavbarCollapse
+              id="basic-navbar-nav"
+            >
+              <Collapse
+                appear={false}
+                dimension="height"
+                getDimensionValue={[Function]}
+                id="basic-navbar-nav"
+                in={false}
+                mountOnEnter={false}
+                timeout={300}
+                unmountOnExit={false}
+              >
+                <Transition
+                  addEndListener={[Function]}
+                  appear={false}
+                  aria-expanded={null}
+                  enter={true}
+                  exit={true}
+                  id="basic-navbar-nav"
+                  in={false}
+                  mountOnEnter={false}
+                  onEnter={[Function]}
+                  onEntered={[Function]}
+                  onEntering={[Function]}
+                  onExit={[Function]}
+                  onExited={[Function]}
+                  onExiting={[Function]}
+                  timeout={300}
+                  unmountOnExit={false}
+                >
+                  <div
+                    aria-expanded={null}
+                    className="navbar-collapse collapse"
+                    id="basic-navbar-nav"
+                  >
+                    <Nav
+                      className="mr-auto"
+                      fill={false}
+                      justify={false}
+                    >
+                      <ForwardRef
+                        as="div"
+                        className="mr-auto navbar-nav"
+                        onSelect={[Function]}
+                      >
+                        <div
+                          className="mr-auto navbar-nav"
+                          onKeyDown={[Function]}
+                        >
+                          <NavLink
+                            as={
+                              Object {
+                                "$$typeof": Symbol(react.forward_ref),
+                                "displayName": "SafeAnchor",
+                                "render": [Function],
+                              }
+                            }
+                            disabled={false}
+                            href="/add-new"
+                          >
+                            <ForwardRef
+                              as={
+                                Object {
+                                  "$$typeof": Symbol(react.forward_ref),
+                                  "displayName": "SafeAnchor",
+                                  "render": [Function],
+                                }
+                              }
+                              className="nav-link"
+                              disabled={false}
+                              href="/add-new"
+                            >
+                              <SafeAnchor
+                                className="nav-link"
+                                data-rb-event-key="/add-new"
+                                disabled={false}
+                                href="/add-new"
+                                onClick={[Function]}
+                              >
+                                <a
+                                  className="nav-link"
+                                  data-rb-event-key="/add-new"
+                                  href="/add-new"
+                                  onClick={[Function]}
+                                  onKeyDown={[Function]}
+                                >
+                                  Add New Feedback
+                                </a>
+                              </SafeAnchor>
+                            </ForwardRef>
+                          </NavLink>
+                        </div>
+                      </ForwardRef>
+                    </Nav>
+                  </div>
+                </Transition>
+              </Collapse>
+            </NavbarCollapse>
+          </nav>
+        </Navbar>
+      </NavBar>
+      <Form
+        inline={false}
+        noValidate={true}
+        onSubmit={[Function]}
+        validated={false}
+      >
+        <form
+          className=""
+          noValidate={true}
+          onSubmit={[Function]}
+        >
+          <FormGroup
+            controlId="formBasicTitle"
+          >
+            <div
+              className="form-group"
+            >
+              <FormLabel
+                column={false}
+                srOnly={false}
+              >
+                <label
+                  className="form-label"
+                  htmlFor="formBasicTitle"
+                >
+                  Title
+                </label>
+              </FormLabel>
+              <FormControl
+                placeholder="Title"
+                required={true}
+                type="title"
+              >
+                <input
+                  className="form-control"
+                  id="formBasicTitle"
+                  placeholder="Title"
+                  required={true}
+                  type="title"
+                />
+              </FormControl>
+              <Feedback
+                type="invalid"
+              >
+                <div
+                  className="invalid-feedback"
+                >
+                  Please Provide Feedback title
+                </div>
+              </Feedback>
+            </div>
+          </FormGroup>
+          <FormGroup
+            controlId="formBasicType"
+          >
+            <div
+              className="form-group"
+            >
+              <FormLabel
+                column={false}
+                srOnly={false}
+              >
+                <label
+                  className="form-label"
+                  htmlFor="formBasicType"
+                >
+                  Type
+                </label>
+              </FormLabel>
+              <FormControl
+                as="select"
+                required={true}
+              >
+                <select
+                  className="form-control"
+                  id="formBasicType"
+                  required={true}
+                >
+                  <option
+                    value=""
+                  >
+                    -- Select --
+                  </option>
+                  <option
+                    value="Technical"
+                  >
+                    Technical
+                  </option>
+                  <option
+                    value="User"
+                  >
+                    User
+                  </option>
+                  <option
+                    value="Management Related"
+                  >
+                    Management Related
+                  </option>
+                  <option
+                    value="competitor Related"
+                  >
+                    competitor Related
+                  </option>
+                  <option
+                    value="Pricing issue"
+                  >
+                    Pricing issue
+                  </option>
+                  <option
+                    value="Customer Care issue"
+                  >
+                    Customer Care issue
+                  </option>
+                </select>
+              </FormControl>
+              <Feedback
+                type="invalid"
+              >
+                <div
+                  className="invalid-feedback"
+                >
+                  Please Select Feedback type
+                </div>
+              </Feedback>
+            </div>
+          </FormGroup>
+          <FormGroup
+            controlId="formBasicEmail"
+          >
+            <div
+              className="form-group"
+            >
+              <FormLabel
+                column={false}
+                srOnly={false}
+              >
+                <label
+                  className="form-label"
+                  htmlFor="formBasicEmail"
+                >
+                  Email address
+                </label>
+              </FormLabel>
+              <FormControl
+                onChange={[MockFunction]}
+                placeholder="Enter email"
+                required={true}
+                type="email"
+              >
+                <input
+                  className="form-control"
+                  id="formBasicEmail"
+                  onChange={[MockFunction]}
+                  placeholder="Enter email"
+                  required={true}
+                  type="email"
+                />
+              </FormControl>
+              <Feedback
+                type="invalid"
+              >
+                <div
+                  className="invalid-feedback"
+                >
+                  Please Enter valid Email
+                </div>
+              </Feedback>
+            </div>
+          </FormGroup>
+          <FormGroup
+            controlId="formBasicDescription"
+          >
+            <div
+              className="form-group"
+            >
+              <FormLabel
+                column={false}
+                srOnly={false}
+              >
+                <label
+                  className="form-label"
+                  htmlFor="formBasicDescription"
+                >
+                  Description
+                </label>
+              </FormLabel>
+              <FormControl
+                as="textarea"
+                required={true}
+                rows="3"
+              >
+                <textarea
+                  className="form-control"
+                  id="formBasicDescription"
+                  required={true}
+                  rows="3"
+                />
+              </FormControl>
+              <Feedback
+                type="invalid"
+              >
+                <div
+                  className="invalid-feedback"
+                >
+                  Please Enter Feedback Description
+                </div>
+              </Feedback>
+            </div>
+          </FormGroup>
+          <Alert
+            closeLabel="Close alert"
+            show={true}
+            transition={
+              Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "defaultProps": Object {
+                  "appear": false,
+                  "in": false,
+                  "mountOnEnter": false,
+                  "timeout": 300,
+                  "unmountOnExit": false,
+                },
+                "displayName": "Fade",
+                "render": [Function],
+              }
+            }
+            variant="success"
+          >
+            <Fade
+              appear={false}
+              in={true}
+              mountOnEnter={false}
+              timeout={300}
+              unmountOnExit={true}
+            >
+              <Transition
+                addEndListener={[Function]}
+                appear={false}
+                enter={true}
+                exit={true}
+                in={true}
+                mountOnEnter={false}
+                onEnter={[Function]}
+                onEntered={[Function]}
+                onEntering={[Function]}
+                onExit={[Function]}
+                onExited={[Function]}
+                onExiting={[Function]}
+                timeout={300}
+                unmountOnExit={true}
+              >
+                <div
+                  className="fade alert alert-success show"
+                  role="alert"
+                >
+                  Created Successfully
+                </div>
+              </Transition>
+            </Fade>
+          </Alert>
+          <Button
+            active={false}
+            disabled={false}
+            type="submit"
+            variant="primary"
+          >
+            <button
+              className="btn btn-primary"
+              disabled={false}
+              type="submit"
+            >
+              Submit
+            </button>
+          </Button>
+        </form>
+      </Form>
+    </div>
+  </Container>
+</NewFeedBack>
+`;

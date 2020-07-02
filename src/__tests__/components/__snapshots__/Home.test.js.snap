@@ -1,0 +1,660 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home Component will render with min props 1`] = `
+<Home
+  feedBackList={
+    Array [
+      Object {
+        "date": 1593590550,
+        "description": "description 2",
+        "dislike": 9,
+        "email": "email 2",
+        "id": "2",
+        "like": 80,
+        "title": "title 2",
+        "type": "type 2",
+      },
+      Object {
+        "date": 1593590430,
+        "description": "description 4",
+        "dislike": 41,
+        "email": "email 4",
+        "id": "4",
+        "like": 39,
+        "title": "title 4",
+        "type": "type 4",
+      },
+      Object {
+        "date": 1593590610,
+        "description": "description 1",
+        "dislike": 88,
+        "email": "email 1",
+        "id": "1",
+        "like": 19,
+        "title": "title 1",
+        "type": "type 1",
+      },
+      Object {
+        "date": 1593590490,
+        "description": "description 3",
+        "dislike": 27,
+        "email": "email 3",
+        "id": "3",
+        "like": 10,
+        "title": "title 3",
+        "type": "type 3",
+      },
+    ]
+  }
+  fetchFeedBacks={
+    [MockFunction] {
+      "calls": Array [
+        Array [],
+      ],
+      "results": Array [
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+      ],
+    }
+  }
+  hideMessage={[MockFunction]}
+  responseMessage="fetched Successfully"
+  responseVariant="success"
+  searchFeedbacks={[MockFunction]}
+  showMessage={[MockFunction]}
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [Function],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+  updateFeedback={[MockFunction]}
+>
+  <Container
+    fluid={true}
+  >
+    <div
+      className="container-fluid"
+    >
+      <NavBar
+        handleChange={[Function]}
+        handleSearch={[Function]}
+        searchEnabled={false}
+        searchText=""
+        showSearch={true}
+      >
+        <Navbar
+          bg="light"
+          collapseOnSelect={false}
+          expand="lg"
+          variant="light"
+        >
+          <nav
+            className="navbar navbar-expand-lg navbar-light bg-light"
+          >
+            <NavbarBrand
+              href="/"
+            >
+              <a
+                className="navbar-brand"
+                href="/"
+              >
+                Astro Customer Feedbacks
+              </a>
+            </NavbarBrand>
+            <NavbarToggle
+              aria-controls="basic-navbar-nav"
+              label="Toggle navigation"
+            >
+              <button
+                aria-controls="basic-navbar-nav"
+                aria-label="Toggle navigation"
+                className="navbar-toggler collapsed"
+                onClick={[Function]}
+                type="button"
+              >
+                <span
+                  className="navbar-toggler-icon"
+                />
+              </button>
+            </NavbarToggle>
+            <NavbarCollapse
+              id="basic-navbar-nav"
+            >
+              <Collapse
+                appear={false}
+                dimension="height"
+                getDimensionValue={[Function]}
+                id="basic-navbar-nav"
+                in={false}
+                mountOnEnter={false}
+                timeout={300}
+                unmountOnExit={false}
+              >
+                <Transition
+                  addEndListener={[Function]}
+                  appear={false}
+                  aria-expanded={null}
+                  enter={true}
+                  exit={true}
+                  id="basic-navbar-nav"
+                  in={false}
+                  mountOnEnter={false}
+                  onEnter={[Function]}
+                  onEntered={[Function]}
+                  onEntering={[Function]}
+                  onExit={[Function]}
+                  onExited={[Function]}
+                  onExiting={[Function]}
+                  timeout={300}
+                  unmountOnExit={false}
+                >
+                  <div
+                    aria-expanded={null}
+                    className="navbar-collapse collapse"
+                    id="basic-navbar-nav"
+                  >
+                    <Nav
+                      className="mr-auto"
+                      fill={false}
+                      justify={false}
+                    >
+                      <ForwardRef
+                        as="div"
+                        className="mr-auto navbar-nav"
+                        onSelect={[Function]}
+                      >
+                        <div
+                          className="mr-auto navbar-nav"
+                          onKeyDown={[Function]}
+                        >
+                          <NavLink
+                            as={
+                              Object {
+                                "$$typeof": Symbol(react.forward_ref),
+                                "displayName": "SafeAnchor",
+                                "render": [Function],
+                              }
+                            }
+                            disabled={false}
+                            href="/add-new"
+                          >
+                            <ForwardRef
+                              as={
+                                Object {
+                                  "$$typeof": Symbol(react.forward_ref),
+                                  "displayName": "SafeAnchor",
+                                  "render": [Function],
+                                }
+                              }
+                              className="nav-link"
+                              disabled={false}
+                              href="/add-new"
+                            >
+                              <SafeAnchor
+                                className="nav-link"
+                                data-rb-event-key="/add-new"
+                                disabled={false}
+                                href="/add-new"
+                                onClick={[Function]}
+                              >
+                                <a
+                                  className="nav-link"
+                                  data-rb-event-key="/add-new"
+                                  href="/add-new"
+                                  onClick={[Function]}
+                                  onKeyDown={[Function]}
+                                >
+                                  Add New Feedback
+                                </a>
+                              </SafeAnchor>
+                            </ForwardRef>
+                          </NavLink>
+                        </div>
+                      </ForwardRef>
+                    </Nav>
+                    <Form
+                      inline={true}
+                    >
+                      <form
+                        className="form-inline"
+                      >
+                        <FormControl
+                          className="mr-sm-2"
+                          onChange={[Function]}
+                          placeholder="Search Using Email"
+                          type="text"
+                          value=""
+                        >
+                          <input
+                            className="mr-sm-2 form-control"
+                            onChange={[Function]}
+                            placeholder="Search Using Email"
+                            type="text"
+                            value=""
+                          />
+                        </FormControl>
+                        <Button
+                          active={false}
+                          disabled={false}
+                          id="SearchButton"
+                          onClick={[Function]}
+                          type="button"
+                          variant="outline-success"
+                        >
+                          <button
+                            className="btn btn-outline-success"
+                            disabled={false}
+                            id="SearchButton"
+                            onClick={[Function]}
+                            type="button"
+                          >
+                            Search
+                          </button>
+                        </Button>
+                      </form>
+                    </Form>
+                  </div>
+                </Transition>
+              </Collapse>
+            </NavbarCollapse>
+          </nav>
+        </Navbar>
+      </NavBar>
+      <Alert
+        closeLabel="Close alert"
+        show={true}
+        transition={
+          Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "defaultProps": Object {
+              "appear": false,
+              "in": false,
+              "mountOnEnter": false,
+              "timeout": 300,
+              "unmountOnExit": false,
+            },
+            "displayName": "Fade",
+            "render": [Function],
+          }
+        }
+        variant="success"
+      >
+        <Fade
+          appear={false}
+          in={true}
+          mountOnEnter={false}
+          timeout={300}
+          unmountOnExit={true}
+        >
+          <Transition
+            addEndListener={[Function]}
+            appear={false}
+            enter={true}
+            exit={true}
+            in={true}
+            mountOnEnter={false}
+            onEnter={[Function]}
+            onEntered={[Function]}
+            onEntering={[Function]}
+            onExit={[Function]}
+            onExited={[Function]}
+            onExiting={[Function]}
+            timeout={300}
+            unmountOnExit={true}
+          >
+            <div
+              className="fade alert alert-success show"
+              role="alert"
+            >
+              fetched Successfully
+            </div>
+          </Transition>
+        </Fade>
+      </Alert>
+      <Card
+        body={false}
+      >
+        <div
+          className="card"
+        >
+          <div
+            key="2"
+          >
+            <Media
+              as="li"
+            >
+              <li
+                className="media"
+              >
+                <img
+                  alt="Generic placeholder"
+                  className="mr-3"
+                  height={64}
+                  src="person.png"
+                  width={64}
+                />
+                <MediaBody>
+                  <div
+                    className="media-body"
+                  >
+                    <h5>
+                      title 2
+                    </h5>
+                    <strong>
+                      type 2
+                    </strong>
+                    <p>
+                      description 2
+                    </p>
+                    <p>
+                      email 2
+                    </p>
+                    <p>
+                      19-01-1970
+                    </p>
+                    <Button
+                      active={false}
+                      disabled={false}
+                      id="like"
+                      name="like"
+                      onClick={[Function]}
+                      type="button"
+                      variant="outline-primary"
+                    >
+                      <button
+                        className="btn btn-outline-primary"
+                        disabled={false}
+                        id="like"
+                        name="like"
+                        onClick={[Function]}
+                        type="button"
+                      >
+                        Like 80
+                      </button>
+                    </Button>
+                     
+                    <Button
+                      active={false}
+                      disabled={false}
+                      id="dislike"
+                      name="dislike"
+                      onClick={[Function]}
+                      type="button"
+                      variant="outline-primary"
+                    >
+                      <button
+                        className="btn btn-outline-primary"
+                        disabled={false}
+                        id="dislike"
+                        name="dislike"
+                        onClick={[Function]}
+                        type="button"
+                      >
+                        DisLike undefined
+                      </button>
+                    </Button>
+                  </div>
+                </MediaBody>
+              </li>
+            </Media>
+            <hr />
+          </div>
+          <div
+            key="4"
+          >
+            <Media
+              as="li"
+            >
+              <li
+                className="media"
+              >
+                <img
+                  alt="Generic placeholder"
+                  className="mr-3"
+                  height={64}
+                  src="person.png"
+                  width={64}
+                />
+                <MediaBody>
+                  <div
+                    className="media-body"
+                  >
+                    <h5>
+                      title 4
+                    </h5>
+                    <strong>
+                      type 4
+                    </strong>
+                    <p>
+                      description 4
+                    </p>
+                    <p>
+                      email 4
+                    </p>
+                    <p>
+                      19-01-1970
+                    </p>
+                    <Button
+                      active={false}
+                      disabled={false}
+                      id="like"
+                      name="like"
+                      onClick={[Function]}
+                      type="button"
+                      variant="outline-primary"
+                    >
+                      <button
+                        className="btn btn-outline-primary"
+                        disabled={false}
+                        id="like"
+                        name="like"
+                        onClick={[Function]}
+                        type="button"
+                      >
+                        Like 39
+                      </button>
+                    </Button>
+                     
+                    <Button
+                      active={false}
+                      disabled={false}
+                      id="dislike"
+                      name="dislike"
+                      onClick={[Function]}
+                      type="button"
+                      variant="outline-primary"
+                    >
+                      <button
+                        className="btn btn-outline-primary"
+                        disabled={false}
+                        id="dislike"
+                        name="dislike"
+                        onClick={[Function]}
+                        type="button"
+                      >
+                        DisLike undefined
+                      </button>
+                    </Button>
+                  </div>
+                </MediaBody>
+              </li>
+            </Media>
+            <hr />
+          </div>
+          <div
+            key="1"
+          >
+            <Media
+              as="li"
+            >
+              <li
+                className="media"
+              >
+                <img
+                  alt="Generic placeholder"
+                  className="mr-3"
+                  height={64}
+                  src="person.png"
+                  width={64}
+                />
+                <MediaBody>
+                  <div
+                    className="media-body"
+                  >
+                    <h5>
+                      title 1
+                    </h5>
+                    <strong>
+                      type 1
+                    </strong>
+                    <p>
+                      description 1
+                    </p>
+                    <p>
+                      email 1
+                    </p>
+                    <p>
+                      19-01-1970
+                    </p>
+                    <Button
+                      active={false}
+                      disabled={false}
+                      id="like"
+                      name="like"
+                      onClick={[Function]}
+                      type="button"
+                      variant="outline-primary"
+                    >
+                      <button
+                        className="btn btn-outline-primary"
+                        disabled={false}
+                        id="like"
+                        name="like"
+                        onClick={[Function]}
+                        type="button"
+                      >
+                        Like 19
+                      </button>
+                    </Button>
+                     
+                    <Button
+                      active={false}
+                      disabled={false}
+                      id="dislike"
+                      name="dislike"
+                      onClick={[Function]}
+                      type="button"
+                      variant="outline-primary"
+                    >
+                      <button
+                        className="btn btn-outline-primary"
+                        disabled={false}
+                        id="dislike"
+                        name="dislike"
+                        onClick={[Function]}
+                        type="button"
+                      >
+                        DisLike undefined
+                      </button>
+                    </Button>
+                  </div>
+                </MediaBody>
+              </li>
+            </Media>
+            <hr />
+          </div>
+          <div
+            key="3"
+          >
+            <Media
+              as="li"
+            >
+              <li
+                className="media"
+              >
+                <img
+                  alt="Generic placeholder"
+                  className="mr-3"
+                  height={64}
+                  src="person.png"
+                  width={64}
+                />
+                <MediaBody>
+                  <div
+                    className="media-body"
+                  >
+                    <h5>
+                      title 3
+                    </h5>
+                    <strong>
+                      type 3
+                    </strong>
+                    <p>
+                      description 3
+                    </p>
+                    <p>
+                      email 3
+                    </p>
+                    <p>
+                      19-01-1970
+                    </p>
+                    <Button
+                      active={false}
+                      disabled={false}
+                      id="like"
+                      name="like"
+                      onClick={[Function]}
+                      type="button"
+                      variant="outline-primary"
+                    >
+                      <button
+                        className="btn btn-outline-primary"
+                        disabled={false}
+                        id="like"
+                        name="like"
+                        onClick={[Function]}
+                        type="button"
+                      >
+                        Like 10
+                      </button>
+                    </Button>
+                     
+                    <Button
+                      active={false}
+                      disabled={false}
+                      id="dislike"
+                      name="dislike"
+                      onClick={[Function]}
+                      type="button"
+                      variant="outline-primary"
+                    >
+                      <button
+                        className="btn btn-outline-primary"
+                        disabled={false}
+                        id="dislike"
+                        name="dislike"
+                        onClick={[Function]}
+                        type="button"
+                      >
+                        DisLike undefined
+                      </button>
+                    </Button>
+                  </div>
+                </MediaBody>
+              </li>
+            </Media>
+            <hr />
+          </div>
+        </div>
+      </Card>
+    </div>
+  </Container>
+</Home>
+`;
