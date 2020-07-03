@@ -38,7 +38,7 @@ export const NewFeedBack = ({ saveFeedback, responseMessage, responseVariant, hi
                 type: form.formBasicType.value,
                 description: form.formBasicDescription.value,
                 email: form.formBasicEmail.value,
-                date: moment(),
+                date: moment().valueOf(),
                 like: 0,
                 disLike: 0
             };
